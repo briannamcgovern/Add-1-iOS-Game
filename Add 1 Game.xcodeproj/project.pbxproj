@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		29677EC1242C32A30012FEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29677EC0242C32A30012FEC1 /* AppDelegate.swift */; };
 		29677EC3242C32A30012FEC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29677EC2242C32A30012FEC1 /* SceneDelegate.swift */; };
-		29677EC5242C32A30012FEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29677EC4242C32A30012FEC1 /* ViewController.swift */; };
+		29677EC5242C32A30012FEC1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29677EC4242C32A30012FEC1 /* GameViewController.swift */; };
 		29677EC8242C32A30012FEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29677EC6242C32A30012FEC1 /* Main.storyboard */; };
 		29677ECA242C32AC0012FEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29677EC9242C32AC0012FEC1 /* Assets.xcassets */; };
 		29677ECD242C32AC0012FEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29677ECB242C32AC0012FEC1 /* LaunchScreen.storyboard */; };
+		29677ED5242C39590012FEC1 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 29677ED4242C39590012FEC1 /* HVD_Comic_Serif_Pro.otf */; };
+		29677ED7242D5FF00012FEC1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29677ED6242D5FF00012FEC1 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29677EBD242C32A30012FEC1 /* Add 1 Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Add 1 Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29677EC0242C32A30012FEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29677EC2242C32A30012FEC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29677EC4242C32A30012FEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29677EC4242C32A30012FEC1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		29677EC7242C32A30012FEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29677EC9242C32AC0012FEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29677ECC242C32AC0012FEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29677ECE242C32AD0012FEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29677ED4242C39590012FEC1 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../../Downloads/HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
+		29677ED6242D5FF00012FEC1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				29677EC0242C32A30012FEC1 /* AppDelegate.swift */,
 				29677EC2242C32A30012FEC1 /* SceneDelegate.swift */,
-				29677EC4242C32A30012FEC1 /* ViewController.swift */,
+				29677EC4242C32A30012FEC1 /* GameViewController.swift */,
 				29677EC6242C32A30012FEC1 /* Main.storyboard */,
 				29677EC9242C32AC0012FEC1 /* Assets.xcassets */,
 				29677ECB242C32AC0012FEC1 /* LaunchScreen.storyboard */,
+				29677ED4242C39590012FEC1 /* HVD_Comic_Serif_Pro.otf */,
 				29677ECE242C32AD0012FEC1 /* Info.plist */,
+				29677ED6242D5FF00012FEC1 /* String.swift */,
 			);
 			path = "Add 1 Game";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				29677ECD242C32AC0012FEC1 /* LaunchScreen.storyboard in Resources */,
 				29677ECA242C32AC0012FEC1 /* Assets.xcassets in Resources */,
+				29677ED5242C39590012FEC1 /* HVD_Comic_Serif_Pro.otf in Resources */,
 				29677EC8242C32A30012FEC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29677EC5242C32A30012FEC1 /* ViewController.swift in Sources */,
+				29677EC5242C32A30012FEC1 /* GameViewController.swift in Sources */,
 				29677EC1242C32A30012FEC1 /* AppDelegate.swift in Sources */,
+				29677ED7242D5FF00012FEC1 /* String.swift in Sources */,
 				29677EC3242C32A30012FEC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
